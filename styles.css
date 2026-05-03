@@ -63,7 +63,7 @@ body {
   width: 40.8%;
   height: 21.35%;
   object-fit: cover;
-  object-position: 50% 54%;
+  object-position: 68% 70%;
 }
 
 .hotspot {
@@ -107,20 +107,6 @@ body {
   top: 71.5%;
   width: 62.7%;
   height: 7.6%;
-}
-
-.image-10.hotspot-line {
-  left: 12.75%;
-  top: 57.3%;
-  width: 74.5%;
-  height: 7.6%;
-}
-
-.image-10.hotspot-web {
-  left: 12.75%;
-  top: 66.1%;
-  width: 74.5%;
-  height: 7.8%;
 }
 
 @media (max-width: 600px) {
