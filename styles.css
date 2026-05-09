@@ -1,6 +1,6 @@
 :root {
   color-scheme: light;
-  --page-bg: #fff8f4;
+  --page-bg: #050708;
   --focus-ring: #e95e73;
 }
 
@@ -21,10 +21,10 @@ body {
 }
 
 .page-shell {
-  width: min(100%, 941px);
+  width: min(100%, 1024px);
   margin: 0 auto;
-  background: #fffdfb;
-  box-shadow: 0 0 36px rgba(86, 48, 42, 0.08);
+  background: #050708;
+  box-shadow: 0 0 36px rgba(0, 0, 0, 0.28);
 }
 
 .lp-panel {
@@ -38,32 +38,6 @@ body {
   width: 100%;
   height: auto;
   user-select: none;
-}
-
-.access-map,
-.clinic-exterior {
-  position: absolute;
-  z-index: 1;
-  display: block;
-  border: 0;
-  border-radius: 18px;
-  overflow: hidden;
-}
-
-.access-map {
-  left: 7.35%;
-  top: 21.75%;
-  width: 39.15%;
-  height: 20.1%;
-}
-
-.lp-panel .clinic-exterior {
-  left: 51.3%;
-  top: 21.7%;
-  width: 40.8%;
-  height: 21.35%;
-  object-fit: cover;
-  object-position: 68% 70%;
 }
 
 .hotspot {
@@ -82,45 +56,45 @@ body {
 }
 
 .image-01.hotspot-consultation {
-  left: 4.8%;
-  top: 62.85%;
-  width: 62.95%;
-  height: 7.15%;
+  left: 4.3%;
+  top: 65.35%;
+  width: 61.0%;
+  height: 7.3%;
 }
 
 .image-01.hotspot-line {
-  left: 4.8%;
-  top: 71.55%;
-  width: 62.95%;
-  height: 6.95%;
+  left: 4.3%;
+  top: 74.2%;
+  width: 61.0%;
+  height: 7.05%;
 }
 
 .image-03.hotspot-consultation {
-  left: 5.8%;
-  top: 93.55%;
-  width: 43.4%;
-  height: 5.0%;
+  left: 6.7%;
+  top: 94.45%;
+  width: 41.5%;
+  height: 4.4%;
 }
 
 .image-03.hotspot-line {
-  left: 50.6%;
-  top: 93.55%;
-  width: 43.4%;
-  height: 5.0%;
+  left: 51.0%;
+  top: 94.45%;
+  width: 42.4%;
+  height: 4.4%;
 }
 
 .image-09.hotspot-consultation {
-  left: 12.65%;
-  top: 66.15%;
-  width: 74.4%;
-  height: 7.9%;
+  left: 15.4%;
+  top: 66.95%;
+  width: 72.0%;
+  height: 6.8%;
 }
 
 .image-09.hotspot-line {
-  left: 12.65%;
-  top: 57.3%;
-  width: 74.4%;
-  height: 7.9%;
+  left: 15.4%;
+  top: 57.65%;
+  width: 72.0%;
+  height: 6.8%;
 }
 
 @media (max-width: 600px) {
