@@ -31,6 +31,12 @@ body {
   position: relative;
   margin: 0;
   line-height: 0;
+  z-index: 1;
+}
+
+.seamed-panel {
+  margin-top: clamp(-12px, -1.1vw, -5px);
+  z-index: 2;
 }
 
 .lp-panel img {
@@ -56,45 +62,45 @@ body {
 }
 
 .image-01.hotspot-consultation {
-  left: 4.3%;
-  top: 65.35%;
-  width: 61.0%;
-  height: 7.3%;
+  left: 12.5%;
+  top: 74.9%;
+  width: 75.4%;
+  height: 6.7%;
 }
 
 .image-01.hotspot-line {
-  left: 4.3%;
-  top: 74.2%;
-  width: 61.0%;
-  height: 7.05%;
+  left: 12.5%;
+  top: 84.4%;
+  width: 75.4%;
+  height: 6.6%;
 }
 
-.image-03.hotspot-consultation {
-  left: 6.7%;
-  top: 94.45%;
-  width: 41.5%;
-  height: 4.4%;
+.image-14.hotspot-line {
+  left: 7.3%;
+  top: 37.3%;
+  width: 85.3%;
+  height: 11.7%;
 }
 
-.image-03.hotspot-line {
-  left: 51.0%;
-  top: 94.45%;
-  width: 42.4%;
-  height: 4.4%;
+.image-14.hotspot-consultation {
+  left: 7.3%;
+  top: 51.8%;
+  width: 85.3%;
+  height: 11.1%;
 }
 
-.image-09.hotspot-consultation {
-  left: 15.4%;
-  top: 66.95%;
-  width: 72.0%;
-  height: 6.8%;
+.image-16.hotspot-consultation {
+  left: 6.0%;
+  top: 90.6%;
+  width: 43.0%;
+  height: 6.1%;
 }
 
-.image-09.hotspot-line {
-  left: 15.4%;
-  top: 57.65%;
-  width: 72.0%;
-  height: 6.8%;
+.image-16.hotspot-line {
+  left: 51.1%;
+  top: 90.6%;
+  width: 42.9%;
+  height: 6.1%;
 }
 
 @media (max-width: 600px) {
