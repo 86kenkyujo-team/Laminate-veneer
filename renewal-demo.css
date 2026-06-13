@@ -1087,6 +1087,82 @@ p {
   box-shadow: 12px 12px 0 rgba(45, 48, 50, 0.12);
 }
 
+.case-card__head {
+  display: grid;
+  gap: 8px;
+  padding: 22px 18px 18px;
+  border-bottom: 1px solid var(--graphite);
+  background: linear-gradient(180deg, var(--white) 0%, var(--mist) 100%);
+  text-align: center;
+}
+
+.case-card__head span {
+  font-family: var(--font-label);
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.case-card__head strong {
+  font-family: var(--font-display);
+  font-size: 23px;
+  line-height: 1.45;
+}
+
+.case-card__head small {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.case-before-after {
+  display: grid;
+  gap: 0;
+  border-bottom: 1px solid var(--graphite);
+  background: var(--ink);
+}
+
+.case-before-after .case-photo {
+  position: relative;
+  margin: 0;
+  background: var(--ink);
+}
+
+.case-before-after .case-photo + .case-photo {
+  border-top: 8px solid var(--ink);
+}
+
+.case-before-after .case-photo img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.case-photo__label {
+  position: absolute;
+  left: 14px;
+  top: 14px;
+  z-index: 2;
+  min-width: 82px;
+  padding: 7px 12px 8px;
+  border: 1px solid rgba(255, 255, 255, 0.58);
+  background: rgba(8, 8, 8, 0.78);
+  color: var(--white);
+  font-family: var(--font-number);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 1;
+  text-align: center;
+}
+
+.case-photo--after .case-photo__label {
+  border-color: rgba(8, 8, 8, 0.22);
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--ink);
+}
+
 .case-card__visuals {
   position: relative;
   display: grid;
