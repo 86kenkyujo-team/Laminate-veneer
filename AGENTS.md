@@ -16,5 +16,6 @@
 
 ## デプロイ
 
+- 次回以降、通常の公開作業は `sh scripts/ship-now.sh "変更内容"` を使う。正しいGit/Vercel対象確認、画像サイズチェック、commit、push、Vercel本番deploy、公開URL確認までまとめて実行する。
 - GitHubへpushしたあと、Vercel本番に反映されているかURLで確認する。
 - 本番反映が遅い場合は、GitHub連携の自動デプロイ状況と手動 `vercel --prod --yes` の結果を分けて確認する。
