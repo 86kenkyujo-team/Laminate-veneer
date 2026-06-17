@@ -51,7 +51,10 @@ deploy_log=$(mktemp "${TMPDIR:-/tmp}/laminate-vercel-deploy.XXXXXX")
 trap 'rm -f "$deploy_log"' EXIT HUP INT TERM
 
 vercel --prod --yes | tee "$deploy_log"
-deployment_url=$(awk '/^Production: https:\/\// { print $2 }' "$deploy_log" | tail -1)
+deployment_url=$(
+  grep -Eo 'https://laminate-veneer-[a-z0-9]+-86kenkyujo-teams-projects\.vercel\.app' "$deploy_log" |
+    tail -1
+)
 
 if [ -z "$deployment_url" ]; then
   printf 'Could not detect Vercel production URL from deploy output.\n' >&2
