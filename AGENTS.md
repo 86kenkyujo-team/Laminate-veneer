@@ -1,5 +1,13 @@
 # ラミネートベニアLP 作業ルール
 
+## 最初に必ず参照
+
+- このフォルダで作業を始めたら、最初にこの `AGENTS.md` と必要に応じて `DESIGN.md` を読む。
+- この `/Users/kyoshiro42/Desktop/ codex_projects/laminate` がGitHub/Vercelへpushする本命リポジトリ。
+- 隣接する `/Users/kyoshiro42/Desktop/ codex_projects/laminate-2` は素材確認・作業コピー用。そこで作業した変更は、公開前に必ずこの本命リポジトリへ反映する。
+- 通常の公開作業は `sh scripts/ship-now.sh "変更内容"` を使う。commit、push、Vercel本番deploy、公開URL確認までまとめて実行する。
+- 公開URLとしてユーザーへ渡すのは `https://laminate-veneer.vercel.app/renewal-demo`。Vercelのteam付き保護URLを最終リンクとして渡さない。
+
 ## 基本方針
 
 - 静的HTML/CSSを基本とし、スマホ幅390px前後で表示崩れがないことを優先する。
