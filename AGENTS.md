@@ -11,6 +11,7 @@
 - LP表示用の画像は、原則として幅1200〜1400px程度まで縮小し、1ファイル3MB以下を目安にする。
 - 元画像・未圧縮PNG・編集前素材は `assets/images/raw/` または `assets/images/originals/` に置く場合もGit管理しない。
 - commit前に `sh scripts/check-new-image-sizes.sh` を実行し、staging済み画像のサイズを確認する。
+- ローカルでは `git config core.hooksPath .githooks` を設定し、pre-commitで画像サイズチェックを自動実行する。
 - 医療写真は見た目の清潔感と判別性を残しつつ、スマホLPに必要以上の解像度を持ち込まない。
 
 ## デプロイ
