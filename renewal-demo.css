@@ -498,9 +498,10 @@ p {
 .case-mini__image,
 .tall-image {
   margin: 0;
-  border: 1px solid var(--line);
   background: var(--soft-2);
   overflow: hidden;
+  line-height: 0;
+  box-shadow: inset 0 0 0 1px var(--line);
 }
 
 .image-frame {
@@ -518,6 +519,7 @@ p {
 .case-single-image,
 .case-mini__image {
   background: var(--ink);
+  box-shadow: inset 0 0 0 1px rgba(225, 227, 226, 0.18);
 }
 
 .ba-single img,
@@ -529,12 +531,12 @@ p {
 }
 
 .ba-single--micro {
-  box-shadow: 10px 10px 0 rgba(45, 48, 50, 0.12);
+  box-shadow: inset 0 0 0 1px rgba(8, 8, 8, 0.2);
 }
 
 .ba-single--dark {
-  border-color: rgba(184, 189, 188, 0.42);
   background: #050505;
+  box-shadow: inset 0 0 0 1px rgba(184, 189, 188, 0.42);
 }
 
 .wide-image {
@@ -1170,9 +1172,8 @@ p {
 }
 
 .case-single-image {
-  border-width: 0 0 1px;
-  border-color: var(--graphite);
   background: var(--ink);
+  box-shadow: inset 0 -1px 0 var(--graphite);
 }
 
 .case-photo__label {
@@ -1354,9 +1355,8 @@ p {
 }
 
 .case-mini--photo .case-mini__image {
-  border-width: 0 0 1px;
-  border-color: var(--line);
   background: var(--ink);
+  box-shadow: inset 0 -1px 0 var(--line);
 }
 
 .case-mini__visuals {
