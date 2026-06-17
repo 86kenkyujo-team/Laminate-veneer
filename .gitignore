@@ -2,3 +2,7 @@
 node_modules/
 .vercel/
 .vercel
+assets/images/raw/
+assets/images/originals/
+assets/images/*-original.*
+assets/images/*_original.*
