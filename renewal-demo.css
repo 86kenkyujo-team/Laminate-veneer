@@ -93,15 +93,16 @@ a {
 
 .nav-cta {
   flex: 0 0 auto;
-  min-height: 38px;
-  padding: 10px 14px;
-  border: 1px solid rgba(225, 227, 226, 0.86);
-  color: var(--white);
+  min-height: 42px;
+  padding: 11px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.96);
+  color: var(--ink);
   text-decoration: none;
   font-size: 13px;
-  font-weight: 700;
-  background: rgba(45, 48, 50, 0.36);
-  backdrop-filter: blur(8px);
+  font-weight: 800;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.24);
+  backdrop-filter: blur(10px);
 }
 
 .hero {
@@ -141,8 +142,30 @@ a {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  padding: 96px 22px 112px;
+  padding: 96px 22px 128px;
   text-align: center;
+}
+
+.hero .cta-row {
+  width: min(100%, 292px);
+  margin: 2px auto 14px;
+  transform: translateY(-18px);
+}
+
+.hero .btn-primary {
+  min-height: 60px;
+  border: 2px solid rgba(255, 255, 255, 0.96);
+  background: rgba(255, 255, 255, 0.96);
+  color: var(--ink);
+  font-size: 16px;
+  font-weight: 900;
+  box-shadow:
+    0 16px 34px rgba(0, 0, 0, 0.42),
+    inset 0 0 0 1px rgba(8, 8, 8, 0.1);
+}
+
+.hero .btn-primary::after {
+  filter: none;
 }
 
 .eyebrow {
@@ -260,7 +283,7 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0;
-  margin: 14px 0 20px;
+  margin: 16px 0 0;
   padding: 0;
   list-style: none;
   border: 1px solid rgba(225, 227, 226, 0.66);
